@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-circleci-template-wmdd-4998-sept-2021",
+  "version": "1.0.0",
+  "description": "Node CircleCI Demo",
+  "main": "app.js",
+  "author": "Paul Lam",
+  "license": "MIT",
+  "private": true,
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mocha": "^9.1.3",
+    "mochawesome": "^7.0.1",
+    "request": "^2.88.2"
+  }
+}
